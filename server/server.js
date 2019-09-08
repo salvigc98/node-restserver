@@ -13,8 +13,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+// Configuracion de rutas
 
-app.use( require('./routes/usuario'));
+app.use( require('./routes/index'));
  
 // conexion moongose
 
